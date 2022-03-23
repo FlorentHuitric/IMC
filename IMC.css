@@ -1,0 +1,20 @@
+h3{
+    background-color:#82ccdd;
+    color:#0a3d62;
+    border-radius: 20px;
+    text-align: center;
+}
+
+body{
+    background-color:#dfe4ea;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+form button{
+    color: white;
+    background-color:#1e3799;
+    border-radius: 20px;
+    text-align: center;
+}
