@@ -1,12 +1,12 @@
-function calcIMC(){
-    var Poids="";
-    var Taille="";
-    Poids/(Math.pow(Taille,2));
+function calcIMC(Poids,Taille){
+    var imc= Poids/(Math.pow(Taille,2));
+    return imc;
 }
 
 
 
 document.querySelector('button').addEventListener("click",function(){
-    querySelector("h3").calcIMC;
+    querySelector("h3").imc;
 });
+
 
