@@ -8,4 +8,5 @@ function calcIMC(){
 
 document.querySelector('button').addEventListener("click",function(){
     querySelector("h3").calcIMC;
-}
+});
+
