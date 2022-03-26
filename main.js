@@ -1,6 +1,6 @@
 const button = document.getElementById("button");
-const taille = document.getElementById("Taille");
-const poids = document.getElementById("Poids");
+const taille = document.getElementById("taille");
+const poids = document.getElementById("poids");
 const result = document.getElementById("result");
 
 
