@@ -1,15 +1,18 @@
+const button = document.getElementById("button");
+const taille = document.getElementById("Taille");
+const poids = document.getElementById("Poids");
+const result = document.getElementById("result");
+
+
 function calcIMC(Poids,Taille){
-    const imc= Poids/(Math.pow(Taille/100,2));
-    return imc;
+    return imc=(Poids/(Math.pow(Taille/100,2))).toFixed(1);
 }
-const button = document.getElementById(button);
-const Taille = document.getElementById(Taille);
-const Poids = document.getElementById(Poids);
-const result = document.getElementById(result);
 
 
-document.getElementById(button).addEventListener("click",function(Poids,Taille){
-    getElementById(result).calcIMC;
+
+button.addEventListener("click",function(){
+    const imc = calcIMC(poids.value, taille.value);
+    console.log(imc);
 });
 
 
