@@ -1,5 +1,5 @@
 function calcIMC(Poids,Taille){
-    var imc= Poids/(Math.pow(Taille,2));
+    var imc= Poids/(Math.pow(Taille/100,2));
     return imc;
 }
 
